@@ -8,7 +8,7 @@ function towelSort (matrix){
           arr.push(matrix[i][a]);
          } 
       }else{
-        for (let a = matrix[i].length-1; a > 0 ; a--){
+        for (let a = matrix[i].length-1; a >= 0 ; a--){
           arr.push(matrix[i][a]);
         }
       }
